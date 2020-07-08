@@ -1,0 +1,32 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer, section{
+    padding: 20px 0;
+}
+.btn.btn-green{
+    padding-left: 26px;
+    padding-right: 26px;
+    border-radius: 30px;
+    background-color: green;
+    color: white;
+}
+
+/* Header Section */
+header{
+    background-color: lightgreen;
+}
+.green{
+    background-color: green;
+    color: white;
+    border-radius: 136px;
+    padding: 0px 14px;
+
+}
+section.hero nav.navbar li.green a.nav-link{
+    color: white;
+}
