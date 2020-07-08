@@ -4,29 +4,87 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
 
 header, footer, section{
     padding: 20px 0;
 }
-.btn.btn-green{
-    padding-left: 26px;
-    padding-right: 26px;
-    border-radius: 30px;
-    background-color: green;
-    color: white;
+h2.h2{
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    font-weight:600;
 }
-
+.btn.btn-green{
+    padding: 12px 36px;
+    border-radius: 30px;
+    background-color: #21B573;
+    color: white;
+    font-size: 16px;
+}
+.btn.btn-green:hover{
+    background-color: #12804e;
+    transition: all .3s ease-in-out;
+}
+.text-violet{
+    color: #413960;
+}
+.text-gray{
+color: #585859;
+}
+.text-tomato{
+    color: #FD511A;
+}
+h1.h1{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 70px;
+}
+.text-green{
+    color: #21B573;
+}
 /* Header Section */
 header{
-    background-color: lightgreen;
+    background-color: #F0FFF0;
 }
-.green{
-    background-color: green;
-    color: white;
+.navbar-brand img{
+    height: 60px;
+    text-align: left;
+}
+a.nav-link.green{
+    background-color: #21B573;
+    color: white !important;
     border-radius: 136px;
-    padding: 0px 14px;
-
+    padding: 12px 28px !important;
+    transition: all .3s ease-in-out;
+}
+a.nav-link.green:hover{
+    background-color: #12804e;
 }
 section.hero nav.navbar li.green a.nav-link{
     color: white;
+}
+/* Features */
+.feature-box {
+    text-align: center;
+    padding: 50px 38px;
+    background-color: #F8FFFB;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.feature-box:hover{
+    transition: all .3s ease-in-out;
+    background-color: #fff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.feature-box img{
+    height: 80px;
+    margin-bottom: 30px;
+}
+.features h3{
+    font-size: 24px;
+    font-weight: 500 ;
 }
