@@ -70,13 +70,14 @@ section.hero nav.navbar li.green a.nav-link{
 /* Features */
 .feature-box {
     text-align: center;
-    padding: 50px 38px;
+    padding: 50px 28px;
     background-color: #F8FFFB;
     border-radius: 10px;
     cursor: pointer;
 }
 .feature-box:hover{
     transition: all .3s ease-in-out;
+    transform: translateY(-1px);
     background-color: #fff;
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
 }
@@ -84,7 +85,27 @@ section.hero nav.navbar li.green a.nav-link{
     height: 80px;
     margin-bottom: 30px;
 }
-.features h3{
+h3{
     font-size: 24px;
-    font-weight: 500 ;
+    font-weight: 600 ;
+}
+/* Courses */
+.courses .card{
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+
+}
+.courses .btn.btn-green{
+    padding: 8px 28px;
+
+}
+
+.card .card-f img{
+    display: inline-block;
+    height: 24px;
+}
+.card .card-f p{
+    
+    font-weight: 500;
 }
