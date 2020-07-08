@@ -6,11 +6,8 @@
 }
 body{
     font-family: 'Poppins', sans-serif !important;
+}
 
-}
-.carousel-indicators li{
-    background-color: #413960;
-}
 
 header, section{
     padding: 30px 0;
@@ -71,7 +68,7 @@ a.nav-link.green:hover{
 section.hero nav.navbar li.green a.nav-link{
     color: white;
 }
-/* Features */
+/* Section - Features */
 .feature-box {
     text-align: center;
     padding: 50px 28px;
@@ -93,7 +90,7 @@ h3, .h3{
     font-size: 24px;
     font-weight: 600 ;
 }
-/* Courses */
+/* Section - Courses */
 .courses .card{
     border: none;
     border-radius: 18px;
@@ -125,6 +122,10 @@ h3, .h3{
     font-family: 'Poppins', sans-serif;
     text-align: left;
     color: black;
+}
+/* Section - Testimonial */
+.carousel-indicators li{
+    background-color: #413960;
 }
 /* Footer */
 footer img{
